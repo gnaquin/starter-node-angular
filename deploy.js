@@ -95,7 +95,7 @@ function sshConnect() {
       return installPM2();
     })
     .then(function() {
-      console.log('Creating `starter-node-angular` folder.');
+      console.log('Creating `starter-node-angular-temp` folder.');
       return createRemoteTempFolder();
     })
     .then(function(result) {
